@@ -1,0 +1,93 @@
+/* Estilos CSS para a calculadora */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.calculator-title {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.operations {
+    margin-bottom: 20px;
+}
+
+.operation-button {
+    padding: 12px 20px; /* Reduzi um pouco o padding para ajustar melhor */
+    font-size: 18px;
+    margin: 0 10px 10px 10px; /* Espaçamento entre os botões e margem inferior */
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block; /* Garante que os botões fiquem em linha e respeitem o margin-bottom */
+}
+
+.operation-button:hover {
+    background-color: #45a049;
+}
+
+.input-section {
+    margin-bottom: 30px;
+}
+
+.number-input {
+    padding: 12px;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.calculate-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculate-button:hover {
+    background-color: #0077a3;
+}
+
+.result-section {
+    display: none;
+    margin-top: 20px;
+}
+
+.result-title {
+    margin-top: 0;
+    color: #333;
+    font-size: 20px;
+}
+
+.result-value {
+    font-size: 28px;
+    font-weight: bold;
+    color: #008CBA;
+}

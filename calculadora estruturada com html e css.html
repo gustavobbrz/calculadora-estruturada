@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2 class="calculator-title">Calculadora Do Gus</h2>
+        <div class="operations">
+            <button class="operation-button" onclick="setOperation('SOMA')">SOMA</button>
+            <button class="operation-button" onclick="setOperation('SUBTRAÇÃO')">SUBTRAÇÃO</button>
+            <button class="operation-button" onclick="setOperation('MULTIPLICAÇÃO')">MULTIPLICAÇÃO</button>
+            <button class="operation-button" onclick="setOperation('DIVISÃO')">DIVISÃO</button>
+        </div>
+        <div class="input-section">
+            <input type="number" class="number-input" id="num1">
+            <input type="number" class="number-input" id="num2">
+        </div>
+        <button class="calculate-button" onclick="calculate()">Calcular</button>
+        <div class="result-section">
+            <h3 class="result-title">Resultado</h3>
+            <p class="result-value" id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
